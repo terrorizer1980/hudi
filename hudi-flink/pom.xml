@@ -30,7 +30,7 @@
 
   <properties>
     <main.basedir>${project.parent.basedir}</main.basedir>
-    <parquet.version>1.11.1</parquet.version>
+    <parquet.version>1.12.2</parquet.version>
   </properties>
 
   <build>

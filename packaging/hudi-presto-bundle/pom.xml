@@ -183,7 +183,7 @@
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>12.0.1</version>
+      <version>32.0.0-android</version>
       <scope>${presto.bundle.bootstrap.scope}</scope>
     </dependency>
 
@@ -211,7 +211,7 @@
       <id>presto-shade-unbundle-bootstrap</id>
       <properties>
         <presto.bundle.bootstrap.scope>provided</presto.bundle.bootstrap.scope>
-        <presto.bundle.bootstrap.shade.prefix />
+        <presto.bundle.bootstrap.shade.prefix/>
       </properties>
     </profile>
   </profiles>

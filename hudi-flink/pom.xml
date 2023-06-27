@@ -30,7 +30,7 @@
 
   <properties>
     <main.basedir>${project.parent.basedir}</main.basedir>
-    <parquet.version>1.11.1</parquet.version>
+    <parquet.version>1.11.2</parquet.version>
   </properties>
 
   <build>
@@ -206,7 +206,7 @@
       <groupId>org.apache.avro</groupId>
       <artifactId>avro</artifactId>
       <!-- Override the version to be same with Flink avro -->
-      <version>1.10.0</version>
+      <version>1.11.1</version>
       <scope>compile</scope>
     </dependency>
 
